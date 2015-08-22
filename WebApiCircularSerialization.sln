@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiCircularSerialization", "WebApiCircularSerialization\WebApiCircularSerialization.csproj", "{AE475ED1-C279-4B09-B9DA-E8F2B30756F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiCircularSerialization.Tests", "WebApiCircularSerialization.Tests\WebApiCircularSerialization.Tests.csproj", "{6D970468-7733-498C-8D62-F83A67BA667E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{CD3475F8-F5E0-4535-93E4-11894EBEC8CE}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C620D6A1-C2C0-46BA-A900-685949ED5D2C}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE475ED1-C279-4B09-B9DA-E8F2B30756F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE475ED1-C279-4B09-B9DA-E8F2B30756F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE475ED1-C279-4B09-B9DA-E8F2B30756F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE475ED1-C279-4B09-B9DA-E8F2B30756F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D970468-7733-498C-8D62-F83A67BA667E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D970468-7733-498C-8D62-F83A67BA667E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D970468-7733-498C-8D62-F83A67BA667E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D970468-7733-498C-8D62-F83A67BA667E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
