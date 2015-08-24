@@ -12,7 +12,7 @@ namespace WebApiCircularSerialization.Tests.Controllers
     public class UserControllerTest
     {
         [TestMethod]
-        public async Task Controller_UserAttrGet()
+        public async Task Controller_UserGet()
         {
             var usrs = new List<User>();
             var mock = new Mock<IUserRepository>();
